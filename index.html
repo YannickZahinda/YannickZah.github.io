@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/d614fc8c85.js" crossorigin="anonymous"></script>
+    <title>Messagerie</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Messages Intelligents</h1>
+        <audio controls = "controls" autoplay loop id="audio" style="display: none;">
+            <source src="./Default iPhone Notification Sound (Apple Sound) - Sound Effect for Editing.mp4">
+            <source src="./Default iPhone Notification Sound (Apple Sound) - Sound Effect for Editing.ogg">
+            <source src="./Default iPhone Notification Sound (Apple Sound) - Sound Effect for Editing.mp3">
+        </audio>
+        <div id="first-interaction">
+            <h2>Hello, je suis une Messagerie <br> intelligente, on peut parler ?</h2>
+        </div>
+        <div id="checking-boxes">
+            <div>
+                <label for="case">Oui</label>
+                <input type="checkbox" id="case" onclick="answer1()">
+            </div>
+            <div>
+                <label for="case">Non</label>
+                <input type="checkbox" id="case2" >
+            </div>
+        </div>
+        <div id="second-interation"></div>
+        <div id="third-interaction"></div>
+        <div id="fourth-interaction">
+            <img src="./IMG_7376.jpg" alt="Creator" id="img1">
+            <p class="fourth-interaction-paragraph">
+                C'est ce garcon qui m'a créée ! <br>
+                Comment vous appelez-vous ?
+            </p>
+        </div>
+        <div id="fifth-interaction">
+            <input type="text" pattern="regex" placeholder="tapez vôtre réponse ici" id="input-interaction-one" >
+            <span id="button1"><i class="fa fa-paper-plane send-icon" aria-hidden="true"></i></span>
+        </div>
+
+        <div id="sixth-interaction"></div>
+        <div id="seventh-interaction"></div>
+        <div id="eighth-interaction"></div>
+
+        <div id="ninth-interaction">
+            <input type="text" pattern="regex" placeholder="tapez vôtre réponse ici" id="input-interaction-two">
+            <span id="button2"><i class="fa fa-paper-plane send-icon" aria-hidden="true"></i></span>
+        </div>
+        <div id="tenth-interaction"></div>
+        <div id="eleventh-interaction"></div>
+        <div id="twelvth-interaction">
+            <input type="text" pattern="regex" placeholder="tapez vôtre réponse ici" id="input-interaction-three">
+            <span id="button3"><i class="fa fa-paper-plane send-icon" aria-hidden="true"></i></span>
+        </div>
+       <div id="thirteenth-interaction"></div>
+    </div>
+    
+    <script src="./app.js"></script>
+    <script>
+
+        setInterval((function(){
+            const Audio = document.getElementById("audio");
+            Audio.remove();
+        }), 50000);
+
+
+    </script>
+</body>
+</html>

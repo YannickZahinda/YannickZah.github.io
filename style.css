@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.container{
+    text-align: center;
+    padding: 20px;
+}
+
+body{
+    padding: 15px;
+    background: url('https://image.freepik.com/vecteurs-libre/fond-blanc-gris-brillant-lignes-ondulees_1017-25101.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    border-radius: 13px;
+}
+
+h1{
+    padding: 8px;
+    background-color: rgb(37, 46, 177);
+    margin: 10px;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: rgb(219, 212, 212);
+}
+
+h2{
+    padding: 5px;
+    width: max-content;
+    background-color: rgb(37, 46, 177);
+    margin: 10px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    color: rgb(219, 212, 212);
+}
+
+#first-interaction{
+    display: none;
+}
+
+#second-interation{
+    padding: 5px;
+    width: max-content;
+    background-color: rgb(37, 46, 177);
+    margin: 10px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(219, 212, 212);
+}
+
+#third-interaction{
+    padding: 5px;
+    width: max-content;
+    background-color: rgb(37, 46, 177);
+    margin: 10px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(219, 212, 212);
+}
+
+#checking-boxes{
+    display: none;
+}
+
+#fourth-interaction{
+    display: none;
+    border-radius: 15px;
+    padding: 3px;
+    background-color: rgb(37, 46, 177);
+    width: max-content;
+    margin: 10px;
+
+}
+
+#img1{
+    width: 180px;
+    height: 272px;
+    border-radius: 10px;
+}
+
+#img2{
+    width: 180px;
+    height: 339px;
+    border-radius: 10px;
+}
+
+.fourth-interaction-paragraph{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(219, 212, 212);
+    font-weight: bold;
+}
+
+#fifth-interaction{
+    text-align: right;
+    display: none;
+}
+
+#input-interaction-one{
+    width: 40%;
+    background-color: rgb(117, 111, 111);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: none;
+    font-family: monospace;
+    
+}
+
+#input-interaction-one::placeholder{
+    color: rgb(202, 199, 199);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#sixth-interaction{
+    padding: 5px;
+    width: max-content;
+    background-color: rgb(37, 46, 177);
+    margin: 10px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(219, 212, 212);
+}
+
+.send-icon{
+    background: none;
+    font-size: 28px;
+}
+
+#button1{
+    background: none;
+    border: none;
+}
+#button2{
+    background: none;
+    border: none;
+}
+
+#seventh-interaction{
+    padding: 5px;
+    width: max-content;
+    background-color: rgb(37, 46, 177);
+    margin: 10px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(219, 212, 212);
+}
+
+#eighth-interaction{
+    padding: 5px;
+    width: max-content;
+    background-color: rgb(37, 46, 177);
+    margin: 10px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(219, 212, 212);
+}
+
+#ninth-interaction{
+    text-align: right;
+    display: none;
+}
+
+#input-interaction-two{
+    width: 40%;
+    background-color: rgb(184, 177, 177);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: none;
+    font-family: monospace;
+    
+}
+
+#tenth-interaction{
+    padding: 5px;
+    width: max-content;
+    background-color: rgb(37, 46, 177);
+    margin: 10px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(219, 212, 212);
+}
+
+#eleventh-interaction{
+    padding: 5px;
+    width: max-content;
+    background-color: rgb(37, 46, 177);
+    margin: 10px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(219, 212, 212);
+}
+
+#twelvth-interaction{
+    text-align: right;
+    display: none;
+}
+
+
+#input-interaction-three{
+    width: 40%;
+    background-color: rgb(184, 177, 177);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: none;
+    font-family: monospace;
+    
+}
+
+#thirteenth-interaction{
+    padding: 5px;
+    width: max-content;
+    background-color: rgb(37, 46, 177);
+    margin: 10px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(219, 212, 212);
+}
+
+
+
+@media only screen and (max-width:990px)  {
+
+    body{
+       width: 100%;
+       padding: 30px;
+       margin: 0 auto;
+       height: max-content;
+    }
+
+    #input-interaction-one{
+        width: 85%;
+    }
+
+    #input-interaction-two{
+        width: 85%;
+    }
+
+    #input-interaction-three{
+        width: 85%;
+    }
+
+}
