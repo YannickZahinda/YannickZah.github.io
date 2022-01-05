@@ -47,7 +47,7 @@ function answer1(){if(document.getElementById("case").checked ==true){
             (()=>setTimeout(()=> eighthInteraction.innerHTML = "Qu'avez à repondre à ca ?",5300))();
             
         }else if((InputOneTest2Result)==true){
-            sixthInteraction.innerHTML = "Ca va Kandy ? Kicukiro dit quoi ?";
+            sixthInteraction.innerHTML = `Ca va Kandy ? J'ai été chargé perso <br> de te remettre un Oncle !<i class='fa fa-smile-o' aria-hidden='true'></i>`;
         }else if((InputOneTest3Result)==true){
             sixthInteraction.innerHTML ='Ravie de vous connaitre <br> monsieur guilain';
             const seventhInteraction = document.getElementById("seventh-interaction");
